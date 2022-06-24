@@ -1,0 +1,56 @@
+.u-user-basic{
+  position: relative;
+  background: #212121;
+  padding-top: 90px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  .u-user-avatar{
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    img{
+      border: solid 3px #ffffff;
+    }
+    span{
+      color: white;
+      font-weight: bold;
+      vertical-align: bottom;
+      display: inline-block;
+      padding-left: 30px;
+      border-bottom: solid 3px #ffffff;
+      letter-spacing: 2px;
+      margin-bottom: 4px;
+    }
+  }
+  .u-menu-lock{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .u-user-logout{
+    position: absolute;
+    top: 23px;
+    right: 50px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
+
+.u-menu {
+  width: 100%;
+  overflow-x: hidden;
+  .ant-menu-inline {
+    border-right: none;
+  }
+  .u-menu-icon {
+    width: 25px;
+    display: inline-block;
+  }
+}
+
